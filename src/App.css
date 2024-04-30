@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* mode toggler button */
+.mode-toggler {
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: red;
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+}
