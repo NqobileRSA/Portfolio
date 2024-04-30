@@ -10,10 +10,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@monaco-editor/react": "^4.6.0",
-    "react": "^18.2.0",
+    "@mantine/carousel": "^7.6.2",
+    "@mantine/core": "^7.6.2",
+    "@mantine/hooks": "^7.6.2",
+    "@mantine/modals": "^7.6.2",
+    "@mantine/notifications": "^7.6.2",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.0.23",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
-    "react-monaco-editor": "^0.55.0"
+    "react-router-dom": "^6.23.0",
+    "react-slick": "^0.30.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
