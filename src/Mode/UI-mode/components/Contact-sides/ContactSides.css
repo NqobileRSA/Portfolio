@@ -46,7 +46,7 @@
 }
 
 .social-icon:hover {
-  color: #4caf50;
+  color: --primary-accent;
   transform: translateY(-0.25rem);
 }
 
@@ -59,8 +59,8 @@
 /* Styles for RightSide component */
 
 .email-link {
-  font-size: 0.8rem;
-  color: #4caf50;
+  font-size: 1rem;
+  color: --primary-accent;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   letter-spacing: 0.2em;

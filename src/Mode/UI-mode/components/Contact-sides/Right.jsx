@@ -4,8 +4,8 @@ import "./ContactSides.css";
 const Right = () => {
   return (
     <div className="right-side">
-      <a href="mailto:noor.jsdivs@gmail.com">
-        <p className="email-link">reactbd@proton.me</p>
+      <a href="#">
+        <p className="email-link">Nqobilengobeni.dev@gmail.com</p>
       </a>
       <span className="separator"></span>
     </div>

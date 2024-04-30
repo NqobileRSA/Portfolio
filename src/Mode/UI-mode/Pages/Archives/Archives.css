@@ -1,0 +1,53 @@
+.archive-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.archive-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.archive-title {
+  font-size: 2rem;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+}
+
+.archive-subtitle {
+  font-size: 1rem;
+  font-family: "Titillium Web", sans-serif;
+  color: #008000;
+}
+
+.archive-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.archive-show-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.archive-show-more-button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #008000;
+  font-size: 0.875rem;
+  border: 1px solid #008000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.archive-show-more-button:hover {
+  background-color: #008000;
+  color: #fff;
+}

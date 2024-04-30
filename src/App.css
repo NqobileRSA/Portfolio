@@ -12,6 +12,10 @@
 :root {
   font-size: 16px;
 }
+html {
+  background-color: #242424;
+}
+
 /* mode toggler button */
 .mode-toggler {
   position: fixed;
