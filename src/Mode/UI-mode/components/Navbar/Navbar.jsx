@@ -24,7 +24,9 @@ const Navbar = () => {
   const handleShow = () => setShow(true);
 
   return (
-    <div id="header" className="header d-flex align-items-center ">
+    <div
+      id="header"
+      className="header d-flex align-items-center container-fluid  ">
       <div className="container-fluid px-2  d-flex align-items-center justify-content-between mt-2 mb-2">
         <a href="#" className="logo d-flex align-items-center">
           <h1>Nqobile.</h1>

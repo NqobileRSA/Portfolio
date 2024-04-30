@@ -1,6 +1,7 @@
 import React from "react";
 import "./UImode.css";
 import { Navbar } from "./components/components";
+import { Home } from "./Pages/Pages";
 
 const UImode = () => {
   return (
@@ -8,6 +9,9 @@ const UImode = () => {
       <header>
         <Navbar />
       </header>
+      <main>
+        <Home />
+      </main>
     </div>
   );
 };
