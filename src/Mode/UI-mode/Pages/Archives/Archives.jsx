@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import ArchiveCard from "../../components/ArchiveCard/ArchiveCard";
+import { ArchiveCard } from "../../components/components";
 import "./Archives.css";
 const Archives = () => {
   const archiveData = [
@@ -29,10 +29,12 @@ const Archives = () => {
   ];
   const [showMore, setShowMore] = useState(false);
   return (
-    <div className="archive-container">
+    <div className="archive-container" id="archives">
       <div className="archive-header">
-        <h2 className="archive-title">Other Noteworthy Projects</h2>
-        <p className="archive-subtitle">view the archive</p>
+        <h2 className="archive-title" id="archive-h2">
+          My GitHub Archives
+        </h2>
+        <p className="archive-subtitle">Browse The Archives</p>
       </div>
       <div className="archive-list">
         {archiveData

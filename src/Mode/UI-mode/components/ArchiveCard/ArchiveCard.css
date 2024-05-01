@@ -1,7 +1,7 @@
 .archive-card {
   width: 100%;
   height: 20rem;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   background-color: #393939;
   padding: 1.75rem;
   display: flex;
@@ -23,12 +23,12 @@
 
 .archive-card-icon {
   font-size: 1.5rem;
-  color: #008000;
+  color: #d2d2d2;
 }
 
 .archive-card-link-icon {
   font-size: 1.25rem;
-  color: inherit;
+  color: #d2d2d2;
   transition: color 0.3s ease-in-out;
 }
 
@@ -48,6 +48,7 @@
   font-weight: 600;
   letter-spacing: 0.025em;
   transition: color 0.3s ease-in-out;
+  color: #d2d2d2;
 }
 
 .archive-card-title:hover {
@@ -56,6 +57,7 @@
 
 .archive-card-description {
   font-size: 0.875rem;
+  color: #b6b6b6;
 }
 
 .archive-card-list {
@@ -65,7 +67,7 @@
   gap: 0.5rem;
   justify-content: space-between;
   font-size: 0.75rem;
-  color: #666;
+  color: #d2d2d2;
 }
 
 .archive-card-list-item {

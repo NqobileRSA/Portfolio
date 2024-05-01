@@ -1,0 +1,40 @@
+.experience-container {
+  max-width: containerxs;
+  margin: 0 auto;
+  padding: 40px 16px;
+}
+
+.experience-content {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.experience-nav {
+  width: 128px;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-nav-item {
+  border-left-width: 2px;
+  border-left-color: hoverColor;
+  color: textDark;
+  background-color: transparent;
+  padding: 12px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.experience-nav-item:hover {
+  background-color: #112240;
+}
+
+.experience-nav-item--active {
+  border-left-color: textGreen;
+  color: textGreen;
+}

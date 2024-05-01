@@ -6,13 +6,13 @@ import Modal from "react-bootstrap/Modal";
 
 const Navbar = () => {
   const [opened, { toggle }] = useDisclosure(false);
-  const [activeTab, setActiveTab] = useState(window.location.pathname);
+  const [activeTab, setActiveTab] = useState("#");
 
   const navLinks = [
     { path: "#", label: "Home" },
-    { path: "#About", label: "About" },
-    { path: "#Services", label: "Services" },
-    { path: "#Contact", label: "Contact" },
+    { path: "#projects", label: "Projects" },
+    { path: "#archives", label: "Archives" },
+    { path: "#contact", label: "Contact" },
   ];
 
   const handleTabClick = (path) => {

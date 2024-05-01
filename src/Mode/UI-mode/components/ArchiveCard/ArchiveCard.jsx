@@ -6,7 +6,7 @@ const ArchiveCard = ({ title, des, listItem, link }) => {
     <a href={link} target="_blank" rel="noopener noreferrer">
       <div className="archive-card">
         <div className="archive-card-header">
-          <i className="bi bi-folder-fill archive-card-icon"></i>
+          <i className="bi bi-folder archive-card-icon"></i>
           <i className="bi bi-box-arrow-up-right archive-card-link-icon"></i>
         </div>
         <div className="archive-card-content">

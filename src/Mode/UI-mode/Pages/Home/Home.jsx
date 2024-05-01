@@ -33,22 +33,26 @@ const Home = () => {
         creating user-friendly and responsive web applications using React and
         its ecosystem.
       </motion.p>
-      <a href="" target="_blank">
-        <motion.button
-          initial={{ y: 10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.9 }}
-          className="button btn-1">
-          Check out my project!
-        </motion.button>
-        <motion.button
-          initial={{ y: 10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.9 }}
-          className="button btn-2">
-          Contact me
-        </motion.button>
-      </a>
+      <div className="actions">
+        <a href="#projects">
+          <motion.button
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.9 }}
+            className="button btn-1">
+            Check out my project!
+          </motion.button>
+        </a>
+        <a href="#">
+          <motion.button
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.9 }}
+            className="button btn-2">
+            Contact me
+          </motion.button>
+        </a>
+      </div>
     </section>
   );
 };

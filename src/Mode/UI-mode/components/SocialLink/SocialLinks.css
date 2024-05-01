@@ -1,0 +1,27 @@
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  color: #9ca3af;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.social-link-text {
+  transition: color 0.3s;
+}
+
+.social-link:hover .social-link-text {
+  color: white;
+}
+
+.social-link-icon {
+  transform: translateX(0) translateY(0);
+  transition: transform 0.5s;
+}
+
+.social-link:hover .social-link-icon {
+  transform: translateX(0.5rem) translateY(-0.5rem);
+}

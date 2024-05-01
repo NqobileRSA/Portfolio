@@ -1,12 +1,15 @@
 import React from "react";
 import heroSnap from "../../../../assets/amazonClone.webp";
-
 import "./Projects.css";
 import { ProjectCard } from "../../components/components";
 
 const Projects = () => {
   return (
-    <div className="wrapper container">
+    <section id="projects" className="wrapper container">
+      <div className="archive-header">
+        <h2 className="archive-title">Live Projects</h2>
+        {/* <p className="archive-subtitle">view the archive</p> */}
+      </div>
       <div className="project-grid">
         <ProjectCard
           img={heroSnap}
@@ -24,7 +27,7 @@ const Projects = () => {
           link="https://amazonclone.reactbd.com/"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

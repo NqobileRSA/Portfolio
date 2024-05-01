@@ -1,0 +1,38 @@
+.xp-heading {
+  display: flex;
+  gap: 4px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Your Title Font", sans-serif;
+}
+
+.xp-heading-highlight {
+  color: #64ffda;
+  letter-spacing: 0.05em;
+}
+
+.xp-date {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ccd6f6;
+}
+
+.xp-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.xp-list-item {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  color: #ccd6f6;
+}
+
+.xp-list-item-icon {
+  color: #64ffda;
+  margin-top: 2px;
+}
