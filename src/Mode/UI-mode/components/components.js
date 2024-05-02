@@ -5,7 +5,7 @@ import ArchiveCard from "./ArchiveCard/ArchiveCard";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import SocialLink from "./SocialLink/SocialLink";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
-
+import SkillSphere from "./SkillSphere/SkillSphere";
 export {
   Navbar,
   Left,
@@ -14,4 +14,5 @@ export {
   ArchiveCard,
   SocialLink,
   ExperienceCard,
+  SkillSphere,
 };

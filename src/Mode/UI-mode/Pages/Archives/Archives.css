@@ -39,14 +39,16 @@
 }
 
 .archive-show-more-button {
-  width: 9rem;
-  height: 3rem;
+  width: 13rem;
+  height: 3.5rem;
+  font-weight: bold;
+  border: none;
   border-radius: 0.25rem;
+  color: #f8f8f8;
   background-color: transparent;
-  color: #fff;
-  font-size: 0.875rem;
-  border: 1px solid #525252;
-  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.25rem;
 }
 
 .archive-show-more-button:hover {

@@ -1,34 +1,8 @@
 import React from "react";
 import "./ContactSides.css";
+import { socials } from "../../constants";
 
 const Left = () => {
-  const socials = [
-    {
-      id: "github",
-      link: "#",
-      icon: "bi bi-github",
-    },
-    {
-      id: "linkedin",
-      link: "#",
-      icon: "bi bi-linkedin",
-    },
-    {
-      id: "whatsapp",
-      link: "#",
-      icon: "bi bi-whatsapp",
-    },
-    {
-      id: "facebook",
-      link: "#",
-      icon: "bi bi-facebook",
-    },
-    {
-      id: "twitter",
-      link: "#",
-      icon: "bi bi-twitter-x",
-    },
-  ];
   return (
     <div className="left-side">
       <div className="social-links">

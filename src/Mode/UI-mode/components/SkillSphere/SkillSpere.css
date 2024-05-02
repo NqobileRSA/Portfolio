@@ -1,0 +1,20 @@
+/* #section-skills {
+  padding-left: 1.5rem;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+} */
+
+@media screen and (min-width: 1200px) {
+  #section-skills {
+    position: absolute;
+    right: 10vw;
+    overflow: visible;
+  }
+  .skills-charts {
+    margin-right: 20%;
+  }
+}

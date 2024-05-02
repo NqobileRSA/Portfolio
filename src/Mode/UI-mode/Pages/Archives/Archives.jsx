@@ -32,7 +32,7 @@ const Archives = () => {
     <div className="archive-container" id="archives">
       <div className="archive-header">
         <h2 className="archive-title" id="archive-h2">
-          My GitHub Archives
+          GitHub Archives
         </h2>
         <p className="archive-subtitle">Browse The Archives</p>
       </div>
