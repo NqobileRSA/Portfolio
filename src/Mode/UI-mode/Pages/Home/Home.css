@@ -60,7 +60,7 @@
 .button {
   width: 13rem;
   height: 3.5rem;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-weight: bold;
   border: 1px solid #b6b6b6;
   border-radius: 0.25rem;
@@ -69,13 +69,18 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-right: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .button:hover {
   color: #ffffff;
   background-color: #b3b3b31d;
 }
-
+/* .btn-2 {
+  border: 1pxz;
+} */
 @media (min-width: 768px) {
   .banner {
     padding: 6rem 2.5rem;

@@ -1,31 +1,31 @@
 import React from "react";
-import heroSnap from "../../../../assets/amazonClone.webp";
 import "./Projects.css";
 import { ProjectCard } from "../../components/components";
+import { motion } from "framer-motion";
+import { projects } from "../../constants";
 
 const Projects = () => {
   return (
     <section id="projects" className="wrapper container">
       <div className="archive-header">
-        <h2 className="archive-title">Live Projects</h2>
-        {/* <p className="archive-subtitle">view the archive</p> */}
+        <motion.h1
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.7 }}
+          className="heading-1">
+          <span
+            className="subheading"
+            style={{ fontSize: "2rem", color: "#d0d0d0" }}>
+            Deployed Pr
+            <i className="bi bi-globe-europe-africa globe" />
+            jects
+          </span>
+        </motion.h1>
       </div>
       <div className="project-grid">
-        <ProjectCard
-          img={heroSnap}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
-        />
-        <ProjectCard
-          img={heroSnap}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
-        />
-        <ProjectCard
-          img={heroSnap}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
-        />
+        {projects.map((item, index) => (
+          <ProjectCard img={item.image} title={item.title} link={item.link} />
+        ))}
       </div>
     </section>
   );

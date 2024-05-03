@@ -39,11 +39,11 @@ const Home = () => {
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.9 }}
-            className="button btn-1">
-            Check out my project!
+            className="button btn-1 heading-3">
+            Explore My Work
           </motion.button>
         </a>
-        <a href="#">
+        <a href="#contact">
           <motion.button
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}

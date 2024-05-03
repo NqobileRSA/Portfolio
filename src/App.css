@@ -23,6 +23,9 @@ html {
   right: 0;
   color: red;
   padding: 10px 20px;
+  margin: 50px;
+  font-weight: 500;
   border: none;
   background-color: black;
+  z-index: 1000;
 }

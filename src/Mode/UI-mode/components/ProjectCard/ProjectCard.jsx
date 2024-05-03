@@ -3,7 +3,7 @@ import "./ProjectCard.css";
 
 const ProjectCard = ({ title, link, img }) => {
   return (
-    <a href={link} target="_blank" rel="noreferrer">
+    <a href={link} rel="noreferrer">
       <div className="project-card">
         <div className="project-card__image-container">
           <img className="project-card__image" src={img} alt={title} />

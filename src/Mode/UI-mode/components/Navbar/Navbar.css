@@ -29,7 +29,7 @@
 .navmenuItem:hover::after,
 .navmenuItem.active::after {
   width: 100%;
-  background-color: #d2d2d2;
+  background-color: #4c8caf;
 }
 
 .navbar-nav .nav-item .nav-link {

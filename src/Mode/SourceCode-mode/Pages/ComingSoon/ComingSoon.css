@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.soon {
+  width: 100vw;
+  height: 100vh;
+  background: #242424;
+}
+.soon-title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4em;
+  color: #ececec;
+  -webkit-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6),
+    0 0 2px rgba(134, 134, 134, 0.7);
+  -moz-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
+  word-spacing: 16px;
+}
+
+.soon-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #f8f8f8;
+  text-shadow: 0 0 40px #343434, 0 0 30px #343434, 0 0 20px #343434;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: table;
+}
+
+.soon-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.soon-item {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px;
+}
+/* not found image */
+.not-found {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  /* width: 25%;
+  height: 25%; */
+}
+@media only screen and (min-width: 800px) {
+  .soon-title {
+    font-size: 6em;
+  }
+  .soon-text {
+    font-size: 1.6em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .soon-title {
+    font-size: 2em;
+  }
+  .soon-text {
+    font-size: 1.2em;
+  }
+}

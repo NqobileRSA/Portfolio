@@ -1,40 +1,20 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ArchiveCard } from "../../components/components";
+import { archiveData } from "../../constants";
 import "./Archives.css";
 const Archives = () => {
-  const archiveData = [
-    {
-      title: "Educare Engligh Learning Academy",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
-      listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
-      link: "https://www.educareenglishlearningacademy.com/",
-    },
-    {
-      title: "Cyber Security Blog with live comments section",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
-      listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
-      link: "https://www.noormohmmad.com/",
-    },
-    {
-      title: "ReactBD web development company",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
-      listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
-      link: "https://reactbd.com/",
-    },
-    // Add more objects for the remaining archives
-  ];
   const [showMore, setShowMore] = useState(false);
   return (
     <div className="archive-container" id="archives">
       <div className="archive-header">
-        <h2 className="archive-title" id="archive-h2">
+        <h2
+          className="archive-title"
+          id="archive-h2"
+          style={{ color: "#d0d0d0" }}>
           GitHub Archives
         </h2>
-        <p className="archive-subtitle">Browse The Archives</p>
+        {/* <p className="archive-subtitle">Browse The Archives</p> */}
       </div>
       <div className="archive-list">
         {archiveData

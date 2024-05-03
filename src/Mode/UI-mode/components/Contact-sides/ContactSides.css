@@ -71,3 +71,9 @@
 .email-link:hover {
   color: #f2f2f2;
 }
+@media (max-width: 1023px) {
+  .left-side,
+  .right-side {
+    display: none;
+  }
+}

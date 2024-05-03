@@ -1,3 +1,9 @@
+import youtubecloneImage from "../../assets/images/youtube.png";
+
+import artgeneratorImage from "../../assets/images/nqobilepicsearch.png";
+
+import weatherappImage from "../../assets/images/weather.png";
+
 const navlinks = [
   {
     label: "Home",
@@ -19,17 +25,17 @@ const navlinks = [
 const socials = [
   {
     id: "Github",
-    link: "#",
+    link: "https://github.com/NqobileRSA",
     icon: "bi bi-github",
   },
   {
     id: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/nqobile-ngobeni-57b040237/",
     icon: "bi bi-linkedin",
   },
   {
     id: "Whatsapp",
-    link: "#",
+    link: "https://wa.me/+27618187972",
     icon: "bi bi-whatsapp",
   },
   {
@@ -56,5 +62,45 @@ const skills = [
   { id: "10", skill: "Tailwindcss" },
   { id: "11", skill: "Typescript" },
 ];
+const projects = [
+  {
+    title: "Simple Youtube Clone",
+    link: "#",
+    image: youtubecloneImage,
+  },
+  {
+    title: "Simple Weather App",
+    link: "#",
+    image: weatherappImage,
+  },
+  {
+    title: "Simple Art Generator",
+    link: "#",
+    image: artgeneratorImage,
+  },
+];
+const archiveData = [
+  {
+    title: "Educare Engligh Learning Academy",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
+    listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
+    link: "#",
+  },
+  {
+    title: "Cyber Security Blog with live comments section",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
+    listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
+    link: "#",
+  },
+  {
+    title: "ReactBD web development company",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
+    listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
+    link: "#",
+  },
+];
 
-export { navlinks, socials, skills };
+export { navlinks, socials, skills, projects, archiveData };
