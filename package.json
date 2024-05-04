@@ -1,7 +1,7 @@
 {
   "homepage": "https://NqobileRSA.github.io/Portfolio",
   "name": "portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -18,7 +18,6 @@
     "@mantine/hooks": "^7.6.2",
     "@mantine/modals": "^7.6.2",
     "@mantine/notifications": "^7.6.2",
-    "boostrap": "^2.0.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "framer-motion": "^11.0.23",
