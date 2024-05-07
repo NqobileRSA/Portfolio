@@ -1,7 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Home.css";
-import { Left, Right, SkillSphere } from "../../components/components";
+import {
+  Left,
+  ParallexBG,
+  Right,
+  SkillSphere,
+} from "../../components/components";
 
 const Home = () => {
   return (
@@ -54,6 +59,7 @@ const Home = () => {
         </a>
       </div>
       <SkillSphere />
+      <ParallexBG />
     </section>
   );
 };
