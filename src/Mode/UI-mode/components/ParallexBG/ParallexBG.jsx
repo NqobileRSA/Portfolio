@@ -6,6 +6,9 @@ import html from "../../../../assets/icons/html5-brands.png";
 import css from "../../../../assets/icons/css3-alt-brands.png";
 import reactIcon from "../../../../assets/icons/react-brands.png";
 import node from "../../../../assets/icons/node-js-brands.png";
+import db from "../../../../assets/icons/database-solid.png";
+import android from "../../../../assets/icons/android-brands.png";
+import apple from "../../../../assets/icons/apple-brands.png";
 
 const ParallexBG = () => {
   const [init, setInit] = useState(false);
@@ -233,18 +236,19 @@ const ParallexBG = () => {
               type: "image",
               options: {
                 image: [
-                  { src: js, width: 500, height: 500 },
+                  { src: js },
                   { src: html },
                   { src: node },
                   { src: reactIcon },
                   { src: css },
+                  { src: db },
+                  { src: android },
+                  { src: apple },
                 ],
-                width: 500,
-                height: 500,
               },
             },
             size: {
-              value: { min: 1, max: 10 },
+              value: { min: 10, max: 15 },
               animation: {
                 count: 0,
                 enable: true,
@@ -318,7 +322,7 @@ const ParallexBG = () => {
             },
             links: {
               blink: false,
-              color: { value: "#ffffff" },
+              color: { value: "#9e9e9e" },
               consent: false,
               distance: 150,
               enable: true,

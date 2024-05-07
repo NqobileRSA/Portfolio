@@ -22,16 +22,17 @@ const Projects = () => {
           </span>
         </motion.h1>
       </div>
-      <div className="project-grid">
+      <motion.div className="project-grid">
         {projects.map((item, index) => (
-          <ProjectCard
+          <motion.div
             key={index}
-            img={item.image}
-            title={item.title}
-            link={item.link}
-          />
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: index * 0.1 }}>
+            <ProjectCard img={item.image} title={item.title} link={item.link} />
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
