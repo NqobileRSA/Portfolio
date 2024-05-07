@@ -24,7 +24,12 @@ const Projects = () => {
       </div>
       <div className="project-grid">
         {projects.map((item, index) => (
-          <ProjectCard img={item.image} title={item.title} link={item.link} />
+          <ProjectCard
+            key={index}
+            img={item.image}
+            title={item.title}
+            link={item.link}
+          />
         ))}
       </div>
     </section>
