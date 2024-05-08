@@ -81,25 +81,46 @@ const projects = [
 ];
 const archiveData = [
   {
-    title: "Educare Engligh Learning Academy",
+    title: "Chat App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
-    listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
+      "A real-time chat application built with MongoDB, React, Express, and Node.js. This application enables users to engage in real-time conversations with each other.",
+    listItems: ["MongoDB", "React", "Express", "Node.js"],
+    link: "https://github.com/NqobileRSA/Chat-App",
+  },
+  {
+    title: "Dating App",
+    description:
+      "A dating application built with MongoDB, React, Express, and Node.js. This app provides users with a platform to connect with potential partners based on their preferences and interests.",
+    listItems: ["MongoDB", "React", "Express", "Node.js"],
+    link: "https://github.com/NqobileRSA/Dating-app",
+  },
+  {
+    title: "YouTube Clone",
+    description:
+      "A YouTube clone application built using React, Bootstrap, CSS3, and Axios. This project aims to replicate the core functionalities of YouTube, such as browsing and watching videos.",
+    listItems: ["React", "Bootstrap", "CSS3", "Axios"],
     link: "#",
   },
   {
-    title: "Cyber Security Blog with live comments section",
+    title: "Portfolio Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
-    listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
+      "A personal portfolio website built with vanilla HTML5, CSS3, and JavaScript (ES6+). Showcase your skills, projects, and experiences in a sleek and professional manner.",
+    listItems: ["HTML5", "CSS3", "JavaScript (ES6+)"],
     link: "#",
   },
   {
-    title: "ReactBD web development company",
+    title: "Simple Calculator",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium velit qui sint non, voluptates quo a veritatis.",
-    listItems: ["Reactjs", "Tailwind CSS", "getform.io"],
-    link: "#",
+      "A basic calculator application developed with vanilla HTML5, CSS3, and JavaScript (ES6+). Perform arithmetic operations like addition, subtraction, multiplication, and division.",
+    listItems: ["HTML5", "CSS3", "JavaScript (ES6+)"],
+    link: "https://github.com/NqobileRSA/simple-calculator",
+  },
+  {
+    title: "Tic Tac Toe",
+    description:
+      "A simple Tic Tac Toe game implemented using vanilla HTML5, CSS3, and JavaScript (ES6+). Enjoy the classic game of Tic Tac Toe against a friend or the computer.",
+    listItems: ["HTML5", "CSS3", "JavaScript (ES6+)"],
+    link: "https://github.com/NqobileRSA/tic-tac-toe",
   },
 ];
 
