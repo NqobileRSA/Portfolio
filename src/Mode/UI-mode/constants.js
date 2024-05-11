@@ -101,13 +101,13 @@ const archiveData = [
     listItems: ["React", "Bootstrap", "CSS3", "Axios"],
     link: "#",
   },
-  {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website built with vanilla HTML5, CSS3, and JavaScript (ES6+). Showcase your skills, projects, and experiences in a sleek and professional manner.",
-    listItems: ["HTML5", "CSS3", "JavaScript (ES6+)"],
-    link: "#",
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   description:
+  //     "A personal portfolio website built with vanilla HTML5, CSS3, and JavaScript (ES6+). Showcase your skills, projects, and experiences in a sleek and professional manner.",
+  //   listItems: ["HTML5", "CSS3", "JavaScript (ES6+)"],
+  //   link: "#",
+  // },
   {
     title: "Simple Calculator",
     description:

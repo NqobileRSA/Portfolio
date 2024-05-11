@@ -6,20 +6,16 @@
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   gap: 2rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 .archive-title {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-}
-.globe {
-  font-size: 1.2rem;
-  margin: 1px;
 }
 
 @media (min-width: 768px) {

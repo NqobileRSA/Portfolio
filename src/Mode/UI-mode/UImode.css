@@ -4,4 +4,7 @@
   width: 100vw;
   background-color: #242424;
   color: white;
+  cursor: url("https://uploads.codesandbox.io/uploads/user/434c4d1c-58ee-47ad-bcc8-6abd6e9c3c7f/L50Q-spiderman.png")
+      32 32,
+    auto !important;
 }
