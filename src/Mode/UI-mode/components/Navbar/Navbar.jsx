@@ -91,10 +91,11 @@ const Navbar = () => {
             <Modal.Title>Resume</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Possimus, optio?
-            </p>
+            <iframe
+              src="https://profile.indeed.com/p/nqobilen-zjh10bd"
+              width="100%"
+              height="500px"
+              frameBorder="0"></iframe>
           </Modal.Body>
         </Modal>
       </div>

@@ -58,7 +58,7 @@ const Home = () => {
           </motion.button>
         </a>
       </div>
-      <SkillSphere />
+      {/* <SkillSphere /> */}
       <ParallexBG />
     </section>
   );

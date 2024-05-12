@@ -1,14 +1,17 @@
 import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import js from "../../../../assets/icons/js-brands.png";
-import html from "../../../../assets/icons/html5-brands.png";
-import css from "../../../../assets/icons/css3-alt-brands.png";
-import reactIcon from "../../../../assets/icons/react-brands.png";
-import node from "../../../../assets/icons/node-js-brands.png";
-import db from "../../../../assets/icons/database-solid.png";
-import android from "../../../../assets/icons/android-brands.png";
-import apple from "../../../../assets/icons/apple-brands.png";
+import js from "../../../../assets/icons/pngwing.com.png";
+import html from "../../../../assets/icons/pngwing.com (1).png";
+import css from "../../../../assets/icons/pngwing.com (2).png";
+import reactIcon from "../../../../assets/icons/pngwing.com (3).png";
+import node from "../../../../assets/icons/pngwing.com (4).png";
+import db from "../../../../assets/icons/pngwing.com (5).png";
+import android from "../../../../assets/icons/pngwing.com (6).png";
+import apple from "../../../../assets/icons/pngwing.com (7).png";
+import icon1 from "../../../../assets/icons/pngwing.com (8).png";
+import icon2 from "../../../../assets/icons/pngwing.com (9).png";
+import icon3 from "../../../../assets/icons/pngwing.com (10).png";
 
 const ParallexBG = () => {
   const [init, setInit] = useState(false);
@@ -35,38 +38,68 @@ const ParallexBG = () => {
         options={{
           autoPlay: true,
           background: {
+            color: {
+              // "value": "#0d47a1"
+            },
             image: "",
-            position: "",
-            repeat: "",
-            size: "",
+            position: "50% 50%",
+            repeat: "no-repeat",
+            size: "cover",
             opacity: 1,
           },
           backgroundMask: {
             composite: "destination-out",
-            cover: { color: { value: "#fff" }, opacity: 1 },
+            cover: {
+              color: {
+                value: "#fff",
+              },
+              opacity: 1,
+            },
             enable: false,
           },
           clear: true,
           defaultThemes: {},
           delay: 0,
-          fullScreen: { enable: true, zIndex: 0 },
+          fullScreen: {
+            enable: true,
+            zIndex: 0,
+          },
           detectRetina: true,
           duration: 0,
           fpsLimit: 120,
           interactivity: {
             detectsOn: "window",
             events: {
-              onClick: { enable: true, mode: "push" },
-              onDiv: { selectors: [], enable: false, mode: [], type: "circle" },
+              onClick: {
+                enable: true,
+                mode: "push",
+              },
+              onDiv: {
+                selectors: [],
+                enable: false,
+                mode: [],
+                type: "circle",
+              },
               onHover: {
                 enable: true,
-                mode: "grab",
-                parallax: { enable: true, force: 60, smooth: 10 },
+                mode: "repulse",
+                parallax: {
+                  enable: false,
+                  force: 2,
+                  smooth: 10,
+                },
               },
-              resize: { delay: 0.5, enable: true },
+              resize: {
+                delay: 0.5,
+                enable: true,
+              },
             },
             modes: {
-              trail: { delay: 1, pauseOnStop: false, quantity: 1 },
+              trail: {
+                delay: 1,
+                pauseOnStop: false,
+                quantity: 1,
+              },
               attract: {
                 distance: 200,
                 duration: 0.4,
@@ -75,13 +108,13 @@ const ParallexBG = () => {
                 maxSpeed: 50,
                 speed: 1,
               },
-              bounce: { distance: 200 },
+              bounce: {
+                distance: 200,
+              },
               bubble: {
-                distance: 400,
-                duration: 2,
+                distance: 200,
+                duration: 0.4,
                 mix: false,
-                opacity: 0.8,
-                size: 40,
                 divs: {
                   distance: 200,
                   duration: 0.4,
@@ -89,13 +122,29 @@ const ParallexBG = () => {
                   selectors: [],
                 },
               },
-              connect: { distance: 80, links: { opacity: 0.5 }, radius: 60 },
-              grab: {
-                distance: 400,
-                links: { blink: false, consent: false, opacity: 1 },
+              connect: {
+                distance: 80,
+                links: {
+                  opacity: 0.5,
+                },
+                radius: 60,
               },
-              push: { default: true, groups: [], quantity: 4 },
-              remove: { quantity: 2 },
+              grab: {
+                distance: 100,
+                links: {
+                  blink: false,
+                  consent: false,
+                  opacity: 1,
+                },
+              },
+              push: {
+                default: true,
+                groups: [],
+                quantity: 4,
+              },
+              remove: {
+                quantity: 2,
+              },
               repulse: {
                 distance: 200,
                 duration: 0.4,
@@ -113,29 +162,60 @@ const ParallexBG = () => {
                   selectors: [],
                 },
               },
-              slow: { factor: 3, radius: 200 },
+              slow: {
+                factor: 3,
+                radius: 200,
+              },
               light: {
                 area: {
                   gradient: {
-                    start: { value: "#ffffff" },
-                    stop: { value: "#000000" },
+                    start: {
+                      value: "#ffffff",
+                    },
+                    stop: {
+                      value: "#000000",
+                    },
                   },
                   radius: 1000,
                 },
-                shadow: { color: { value: "#000000" }, length: 2000 },
+                shadow: {
+                  color: {
+                    value: "#000000",
+                  },
+                  length: 2000,
+                },
               },
             },
           },
           manualParticles: [],
           particles: {
-            bounce: { horizontal: { value: 1 }, vertical: { value: 1 } },
+            bounce: {
+              horizontal: {
+                value: 1,
+              },
+              vertical: {
+                value: 1,
+              },
+            },
             collisions: {
-              absorb: { speed: 2 },
-              bounce: { horizontal: { value: 1 }, vertical: { value: 1 } },
+              absorb: {
+                speed: 2,
+              },
+              bounce: {
+                horizontal: {
+                  value: 1,
+                },
+                vertical: {
+                  value: 1,
+                },
+              },
               enable: false,
               maxSpeed: 50,
               mode: "bounce",
-              overlap: { enable: true, retries: 0 },
+              overlap: {
+                enable: true,
+                retries: 0,
+              },
             },
             color: {
               value: "#ffffff",
@@ -169,16 +249,32 @@ const ParallexBG = () => {
                 },
               },
             },
-            effect: { close: true, fill: true, options: {}, type: [] },
+            effect: {
+              close: true,
+              fill: true,
+              options: {},
+              type: [],
+            },
             groups: {},
             move: {
-              angle: { offset: 0, value: 90 },
+              angle: {
+                offset: 0,
+                value: 90,
+              },
               attract: {
                 distance: 200,
                 enable: false,
-                rotate: { x: 3000, y: 3000 },
+                rotate: {
+                  x: 3000,
+                  y: 3000,
+                },
               },
-              center: { x: 50, y: 50, mode: "percent", radius: 0 },
+              center: {
+                x: 50,
+                y: 50,
+                mode: "percent",
+                radius: 0,
+              },
               decay: 0,
               distance: {},
               direction: "none",
@@ -192,31 +288,56 @@ const ParallexBG = () => {
               },
               path: {
                 clamp: true,
-                delay: { value: 0 },
+                delay: {
+                  value: 0,
+                },
                 enable: false,
                 options: {},
               },
-              outModes: { default: "out" },
+              outModes: {
+                default: "out",
+                bottom: "out",
+                left: "out",
+                right: "out",
+                top: "out",
+              },
               random: false,
               size: false,
               speed: 2,
-              spin: { acceleration: 0, enable: false },
+              spin: {
+                acceleration: 0,
+                enable: false,
+              },
               straight: false,
-              trail: { enable: false, length: 10, fill: {} },
+              trail: {
+                enable: false,
+                length: 10,
+                fill: {},
+              },
               vibrate: false,
               warp: false,
             },
             number: {
-              density: { enable: true, width: 1920, height: 1080 },
-              limit: { mode: "delete", value: 0 },
-              value: 100,
+              density: {
+                enable: true,
+                width: 1920,
+                height: 1080,
+              },
+              limit: {
+                mode: "delete",
+                value: 0,
+              },
+              value: 80,
             },
             opacity: {
-              value: { min: 0.1, max: 0.5 },
+              value: {
+                min: 0.1,
+                max: 0.5,
+              },
               animation: {
                 count: 0,
                 enable: true,
-                speed: 3,
+                speed: 1,
                 decay: 0,
                 delay: 0,
                 sync: false,
@@ -228,9 +349,14 @@ const ParallexBG = () => {
             reduceDuplicates: false,
             shadow: {
               blur: 0,
-              color: { value: "#000" },
+              color: {
+                value: "#000",
+              },
               enable: false,
-              offset: { x: 0, y: 0 },
+              offset: {
+                x: 0,
+                y: 0,
+              },
             },
             shape: {
               type: "image",
@@ -244,15 +370,18 @@ const ParallexBG = () => {
                   { src: db },
                   { src: android },
                   { src: apple },
+                  { src: icon1 },
+                  { src: icon2 },
+                  { src: icon3 },
                 ],
               },
             },
             size: {
-              value: { min: 10, max: 15 },
+              value: 16,
               animation: {
                 count: 0,
-                enable: true,
-                speed: 20,
+                enable: false,
+                speed: 5,
                 decay: 0,
                 delay: 0,
                 sync: false,
@@ -261,48 +390,128 @@ const ParallexBG = () => {
                 destroy: "none",
               },
             },
-            stroke: { width: 0 },
-            zIndex: { value: 0, opacityRate: 1, sizeRate: 1, velocityRate: 1 },
+            stroke: {
+              width: 1,
+              color: {
+                value: "#ffffff",
+                animation: {
+                  h: {
+                    count: 0,
+                    enable: false,
+                    speed: 1,
+                    decay: 0,
+                    delay: 0,
+                    sync: true,
+                    offset: 0,
+                  },
+                  s: {
+                    count: 0,
+                    enable: false,
+                    speed: 1,
+                    decay: 0,
+                    delay: 0,
+                    sync: true,
+                    offset: 0,
+                  },
+                  l: {
+                    count: 0,
+                    enable: false,
+                    speed: 1,
+                    decay: 0,
+                    delay: 0,
+                    sync: true,
+                    offset: 0,
+                  },
+                },
+              },
+            },
+            zIndex: {
+              value: 0,
+              opacityRate: 1,
+              sizeRate: 1,
+              velocityRate: 1,
+            },
             destroy: {
               bounds: {},
               mode: "none",
               split: {
                 count: 1,
-                factor: { value: 3 },
-                rate: { value: { min: 4, max: 9 } },
+                factor: {
+                  value: 3,
+                },
+                rate: {
+                  value: {
+                    min: 4,
+                    max: 9,
+                  },
+                },
                 sizeOffset: true,
+                particles: {},
               },
             },
             roll: {
-              darken: { enable: false, value: 0 },
+              darken: {
+                enable: false,
+                value: 0,
+              },
               enable: false,
-              enlighten: { enable: false, value: 0 },
+              enlighten: {
+                enable: false,
+                value: 0,
+              },
               mode: "vertical",
               speed: 25,
             },
             tilt: {
               value: 0,
-              animation: { enable: false, speed: 0, decay: 0, sync: false },
+              animation: {
+                enable: false,
+                speed: 0,
+                decay: 0,
+                sync: false,
+              },
               direction: "clockwise",
               enable: false,
             },
             twinkle: {
-              lines: { enable: false, frequency: 0.05, opacity: 1 },
-              particles: { enable: false, frequency: 0.05, opacity: 1 },
+              lines: {
+                enable: false,
+                frequency: 0.05,
+                opacity: 1,
+              },
+              particles: {
+                enable: false,
+                frequency: 0.05,
+                opacity: 1,
+              },
             },
             wobble: {
               distance: 5,
               enable: false,
-              speed: { angle: 50, move: 10 },
+              speed: {
+                angle: 50,
+                move: 10,
+              },
             },
             life: {
               count: 0,
-              delay: { value: 0, sync: false },
-              duration: { value: 0, sync: false },
+              delay: {
+                value: 0,
+                sync: false,
+              },
+              duration: {
+                value: 0,
+                sync: false,
+              },
             },
             rotate: {
               value: 0,
-              animation: { enable: false, speed: 0, decay: 0, sync: false },
+              animation: {
+                enable: false,
+                speed: 0,
+                decay: 0,
+                sync: false,
+              },
               direction: "clockwise",
               path: false,
             },
@@ -317,19 +526,32 @@ const ParallexBG = () => {
               },
               enable: false,
               opacity: 1,
-              rotation: { value: 45 },
+              rotation: {
+                value: 45,
+              },
               width: 1,
             },
             links: {
               blink: false,
-              color: { value: "#9e9e9e" },
+              color: {
+                value: "#ffffff",
+              },
               consent: false,
               distance: 150,
               enable: true,
               frequency: 1,
               opacity: 0.4,
-              shadow: { blur: 5, color: { value: "#000" }, enable: false },
-              triangles: { enable: false, frequency: 1 },
+              shadow: {
+                blur: 5,
+                color: {
+                  value: "lime",
+                },
+                enable: false,
+              },
+              triangles: {
+                enable: false,
+                frequency: 1,
+              },
               width: 1,
               warp: false,
             },
@@ -349,8 +571,14 @@ const ParallexBG = () => {
           style: {},
           themes: [],
           zLayers: 100,
-          name: "Parallax",
-          motion: { disable: false, reduce: { factor: 4, value: true } },
+          name: "Font Awesome",
+          motion: {
+            disable: false,
+            reduce: {
+              factor: 4,
+              value: true,
+            },
+          },
         }}
       />
     )

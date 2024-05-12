@@ -7,6 +7,7 @@ import SocialLink from "./SocialLink/SocialLink";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import SkillSphere from "./SkillSphere/SkillSphere";
 import ParallexBG from "./ParallexBG/ParallexBG";
+import ServiceCard from "./ServiceCard/ServiceCard";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   ExperienceCard,
   SkillSphere,
   ParallexBG,
+  ServiceCard,
 };

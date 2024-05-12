@@ -87,13 +87,7 @@ const archiveData = [
     listItems: ["MongoDB", "React", "Express", "Node.js"],
     link: "https://github.com/NqobileRSA/Chat-App",
   },
-  {
-    title: "Dating App",
-    description:
-      "A dating application built with MongoDB, React, Express, and Node.js. This app provides users with a platform to connect with potential partners based on their preferences and interests.",
-    listItems: ["MongoDB", "React", "Express", "Node.js"],
-    link: "https://github.com/NqobileRSA/Dating-app",
-  },
+
   {
     title: "YouTube Clone",
     description:
@@ -122,6 +116,29 @@ const archiveData = [
     listItems: ["HTML5", "CSS3", "JavaScript (ES6+)"],
     link: "https://github.com/NqobileRSA/tic-tac-toe",
   },
+  {
+    title: "Dating App",
+    description:
+      "A dating application built with MongoDB, React, Express, and Node.js. This app provides users with a platform to connect with potential partners based on their preferences and interests.",
+    listItems: ["MongoDB", "React", "Express", "Node.js"],
+    link: "https://github.com/NqobileRSA/Dating-app",
+  },
 ];
-
-export { navlinks, socials, skills, projects, archiveData };
+const services = [
+  {
+    title: "Web Development",
+    str: "webdevelopment",
+    icon: "bi bi-code-slash",
+  },
+  {
+    title: "App Development",
+    str: "appdevelopment",
+    icon: "bi bi-phone",
+  },
+  {
+    title: "UX Design",
+    str: "ux/ui",
+    icon: "bi bi-layout-text-window-reverse",
+  },
+];
+export { navlinks, socials, skills, projects, archiveData, services };
